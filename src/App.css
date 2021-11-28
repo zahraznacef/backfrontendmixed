@@ -1,0 +1,69 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Open Sans', sans-serif;
+}
+
+.nav{
+  display: flex;
+  background-color: black;
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+}
+.nav-img{
+  height: 70px;
+}
+.nav-ul{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-li{
+  list-style: none;
+  padding: 20px;
+}
+.nav-a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.slider{
+  margin-bottom: 70px;
+}
+.slider-img{
+  height: 100vh;
+  width: 100%;
+}
+.slider-title{
+  color: red;
+}
+.slider-caption{
+  background-color: rgba(0,0,0,0.74);
+  padding: 20px;
+}
+
+
+
+.recherchevoiture{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 50px;
+}
+.recherchevoiture-content{
+  width: 80%;
+  height: inherit;
+  box-shadow: 1px 1px 3px 1px rgb(0 0 0 / 20%);
+  padding: 20px;
+}
